@@ -1,10 +1,9 @@
-## 📚 Aula: [Keywords e tipos primitivos]
+# 📚 Estudo: [Keywords e tipos primitivos]
 
-> Módulo: [sintaxe-basica-module]  
-> Curso: [fundamentos-java-course]
+## 🎯 Objetivo
+O objetivo é revisar e absorver possiveis novos conteudos sobre a sintaxe básica da linguagem Java.
 
----
-
+## ✍️ Resumo
 ### ✨ O que revisei
 
 ### Tipos Primitivos
@@ -72,4 +71,12 @@ char c = 65;      // 65 é o código Unicode para 'A'
 System.out.println(c);  // A
 
 ```
+
+---
+
+## 🚀 Materiais e Referências
+- [dio.me/articles/java-tipos-primitivos]
+
+---
+Estudo realizado como parte do meu plano de desenvolvimento pessoal! 🚀✨
 
