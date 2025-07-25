@@ -75,8 +75,8 @@ System.out.println(c);  // A
 ---
 
 ## 🚀 Materiais e Referências
-- [dio.me/articles/java-tipos-primitivos]
+- [https://dio.me/articles/java-tipos-primitivos]
+- [https://web.dio.me/track/gft-start-7-java]
 
----
 Estudo realizado como parte do meu plano de desenvolvimento pessoal! 🚀✨
 
