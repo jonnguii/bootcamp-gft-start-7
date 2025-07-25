@@ -1,9 +1,9 @@
-## 📚 Aula: [Padrões de desenvolvimento e conceitos]
+# 📚 Estudo: [Padrões de desenvolvimento e conceitos]
 
-> Módulo: [sintaxe-basica-module]  
-> Curso: [fundamentos-java-course]
+## 🎯 Objetivo
+O objetivo é revisar e absorver possiveis novos conteudos sobre a sintaxe básica da linguagem Java.
 
-
+## ✍️ Resumo
 ### ✨ O que revisei:
 
 ### Indentação
@@ -81,3 +81,12 @@ value 1 = 20 ❌ erro! o Java não permite alterar o tipo uma vez declarado [est
 Permite autodeclaração de tipo: o compilador identifica o tipo baseado no valor atribuído.
 
 Ainda assim, Java continua sendo estaticamente tipado – o tipo não pode mudar depois de atribuído.
+
+---
+
+## 🚀 Materiais e Referências
+- [https://web.dio.me/track/gft-start-7-java]
+
+
+Estudo realizado como parte do meu plano de desenvolvimento pessoal! 🚀✨
+
