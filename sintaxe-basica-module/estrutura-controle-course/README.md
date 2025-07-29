@@ -20,8 +20,10 @@ Aprimorar e revisar meu conhecimento em Estruturas de Controle:
 ### 🧠 Conceitos importantes
 
 - 🔴 switch tradicional:
-java
+
 ```
+java
+
 switch (opcao) {
 	case 1: 
 	System.out.println("Um");
@@ -37,8 +39,10 @@ switch (opcao) {
 ```
 
 - 🟢 switch moderno com ->:
-java
+
 ```
+java
+
 switch (opcao) {
 	case 1 -> System.out.println("Um");
 	case 2 -> System.out.println("Dois");
@@ -50,10 +54,12 @@ switch (opcao) {
 
 Caso quisermos usar mais de 1 linha, ou seja, mais de uma instrução dentro de um case com ->, adicionamos o yield e chaves {}
 
-🟢 Exemplo com múltiplas linhas e yield:
+- 🟢 Exemplo com múltiplas linhas e yield:
 
-java 
+
 ```
+java
+
 String resultado = switch (dia) {
     case 1 -> {
         System.out.println("Domingo");
@@ -72,17 +78,21 @@ String resultado = switch (dia) {
 ```
 🔍 Explicação:
 
-O switch-case moderno não necessita de break, ele o inclui de forma inteligente.
-Caso queremos trabalhar com atribuição de valor no switch case, precisamos passar uma keyword de retorno (!return), que no caso é o [yield]. Também precisamos colocar tudo dentro de chaves.
+- O switch-case moderno não necessita de break, ele o inclui de forma inteligente.
+- Caso quisermos trabalhar com atribuição de valor no switch case, precisamos passar uma keyword de retorno *(!return)*, que no caso é o *[yield]*. Também precisamos colocar tudo dentro de chaves.
+
+---
 
 
-- [Continue]
-Essa keyword utilizada em loops, faz com que ignoremos o restante do código e voltemos ao inicio do loop que está sendo repetido.
+### *[Continue]*
+Essa *keyword* utilizada em loops, faz com que ignoremos o restante do código e voltemos ao inicio do loop que está sendo repetido.
 
 Exemplo em código:
 
-java 
+
 ```
+java
+
 for (int i = 1; i <= 5; i++) {
     if (i == 3) {
         continue; // pula o 3
@@ -98,16 +108,19 @@ Saída:
 
 ```
 
+---
 
-- [Operador ternário]
+## *[Operador ternário]*
 Uma versão de um if/else com a seguinte assinatura:
 
 Condição ? valor1 : valor2
 
 Exemplo em código:
 
-java 
+
 ```
+java
+
 String day = option == 1 ? "Domingo" : "Sábado";
 ```
 
@@ -119,4 +132,3 @@ String day = option == 1 ? "Domingo" : "Sábado";
 - [https://web.dio.me/track/gft-start-7-java/course/estruturas-de-controle-em-java/learning]
 
 
-Estudo realizado como parte do meu plano de desenvolvimento pessoal! 🚀✨
